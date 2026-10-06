@@ -1,0 +1,4 @@
+export default function SettingsPage() {
+  return <div className="product-page"><header className="product-header"><div><p className="eyebrow">SETTINGS</p><h1>Your account and preferences.</h1></div></header><section className="settings-list"><div><span>Feedback</span><h2>Written coaching</h2><p>Always shown during assessed movements.</p><button className="toggle" aria-pressed="true" disabled><span /></button></div><div><span>Voice</span><h2>Spoken cues</h2><p>Optional voice controls arrive with live coaching.</p><button className="toggle" aria-pressed="false" disabled><span /></button></div><div><span>Data</span><h2>Account, export, and deletion</h2><p>Available after the approved account provider is connected.</p><button className="button button-disabled" disabled>Manage data</button></div></section></div>;
+}
+

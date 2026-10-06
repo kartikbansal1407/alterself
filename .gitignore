@@ -1,0 +1,42 @@
+# dependencies
+/node_modules
+
+# Next.js
+/.next
+/out
+
+# tests and coverage
+/coverage
+/playwright-report
+/test-results
+
+# local environment files
+.env*
+!.env.example
+
+# system and editor files
+.DS_Store
+*.swp
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# Private project documentation and agent context
+/docs/
+/AGENTS.md
+/CLAUDE.md
+
+# Discussion and architecture notes, wherever they are saved
+**/*[Dd][Ii][Ss][Cc][Uu][Ss][Ss][Ii][Oo][Nn]*/
+**/*[Aa][Rr][Cc][Hh][Ii][Tt][Ee][Cc][Tt][Uu][Rr][Ee]*/
+**/*[Dd][Ii][Ss][Cc][Uu][Ss][Ss][Ii][Oo][Nn]*.md
+**/*[Dd][Ii][Ss][Cc][Uu][Ss][Ss][Ii][Oo][Nn]*.txt
+**/*[Aa][Rr][Cc][Hh][Ii][Tt][Ee][Cc][Tt][Uu][Rr][Ee]*.md
+**/*[Aa][Rr][Cc][Hh][Ii][Tt][Ee][Cc][Tt][Uu][Rr][Ee]*.txt
